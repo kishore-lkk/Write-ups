@@ -26,9 +26,9 @@ In XOR,
 
 <img width="1374" height="874" alt="image" src="https://github.com/user-attachments/assets/096a16e4-71aa-4b6c-9f59-67895c6a3ffb" />
 
-so Plain-Text ⊕ Key → Cipher-Text. we can reverse engineer this by Plain-Text ⊕ Cipher-Text → key. 
+so Plain-Text ⊕ Key → Cipher-Text. We can reverse engineer this by Plain-Text ⊕ Cipher-Text → key to find the key used in the encryption. 
 
-In the task, we were given the Cipher-Text, which is output of XOR and encoded in hex, Here we use cyberchef to decode the data into bytes and do the reverse XOR encryption:
+In the task, we were given the Cipher-Text, which is output of XOR and encoded in hex, Here we use cyberchef to decode the data into bytes and do the reverse XOR encryption to find the key :
 
 But to do the reverse XOR we need to know the plaintext, We know that all the THM flags are in THM{flag} format, by this we might able to understand the plaintext should have the `“THM{”`[data]`”}"` so, we take the first 4 bytes from the cipher text and do the reverse XOR encryption
 
