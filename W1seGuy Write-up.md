@@ -30,7 +30,7 @@ so Plain-Text ⊕ Key → Cipher-Text. We can reverse engineer this by Plain-Tex
 
 In the task, we were given the Cipher-Text, which is output of XOR and encoded in hex, Here we use cyberchef to decode the data into bytes and do the reverse XOR encryption to find the key :
 
-But to do the reverse XOR we need to know the plaintext (No, the plain text present in the source_code.py is not used), We know that all the THM flags are in THM{flag} format, by this we might able to understand the plaintext should have the `“THM{”`[data]`”}"` so, we take the first 4 bytes from the cipher text and do the reverse XOR encryption
+But to do the reverse XOR we need to know the plaintext (No, the plain text present in the source_code.py is not used), We know that all the THM flags are in `THM{flag}` format, by this we might able to understand the plaintext should have the `“THM{”`[data]`”}"` so, we take the first 4 bytes from the cipher text and do the reverse XOR encryption
 
 <img width="782" height="672" alt="image" src="https://github.com/user-attachments/assets/c4459f99-e394-4f3f-9783-b94eb2690f75" />
 
