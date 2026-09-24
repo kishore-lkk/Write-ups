@@ -6,7 +6,7 @@ This box has 2 task,
 
 ### Task 1:
 
-In task one, we were given the source code, By analysing the source code we would be able to understand, that the code first setup a local server and generate a 5 - char key for performing XOR encryption, the source code have the plain-text inbuilt.
+In task one, we were given the source code, By analyzing the source code we would be able to understand, that the code, first setup a local server and generate a random 5 - char key for performing XOR encryption, the source code also have the plain-text that is used for XOR encryption.
 
 ---
 
