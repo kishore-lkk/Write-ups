@@ -17,7 +17,8 @@ nmap -p- <ip>
 
 which gave all the open ports, from that we could get the answer easily 
 
-<img width="801" height="332" alt="image 1" src="https://github.com/user-attachments/assets/13321e3b-8287-4ab7-880e-a8a821b60f7a" />
+<img width="844" height="372" alt="image" src="https://github.com/user-attachments/assets/f723a5ea-3a09-45bc-948f-e4fdad8e86a1" />
+
 
 
 **Answer : 8081**
@@ -164,5 +165,3 @@ nmap -sN <ip>
 **Answer : THM{NMAP_CHAMPION001}**
 
 **Answer : 8081**
-
----
