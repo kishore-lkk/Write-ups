@@ -1,9 +1,3 @@
-# Net Sec
-
-Difficulty: Easy
-Done: Yes
-Tags: hydra, nmap
-
 # Net Sec Challenge
 
 whoaaa!!!, This challenge took me lot of time than I expected.
@@ -23,28 +17,8 @@ nmap -p- <ip>
 
 which gave all the open ports, from that we could get the answer easily 
 
-![image.png](Net%20Sec/image.png)# Net_Sec
+<img width="801" height="332" alt="image 1" src="https://github.com/user-attachments/assets/13321e3b-8287-4ab7-880e-a8a821b60f7a" />
 
-# Net Sec Challenge
-
-whoaaa!!!, This challenge took me lot of time than I expected.
-
-This challenge mainly revolves around nmap. let see how I solved the problems
-
-> Challenge 1
-> 
-
-What is the highest port number that is open and less than 10,000?
-
-I ran
-
-```python
-nmap -p- <ip>
-```
-
-which gave all the open ports, from that we could get the answer easily 
-
-!image.png
 
 **Answer : 8081**
 
